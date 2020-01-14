@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Operator Appliaction form Apply here</title> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+<body style="background-color: antiquewhite">
+    <div class="container mb-5">
+        <h1 class="text-center mt-2">Application Form</h1>
+        <hr class="w-25 text-center">
+        <h6 class="text-center">(Direct Requirnment Of Computer Operator)</h6>
+        <div class="row">
+        <div class="col-md-8">
+        <legend>Personal Details</legend>
+        <form name="myform"onsubmit="return validation()">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Candidate Name</label>
+    <input type="text" class="form-control" id="1"  placeholder="Ente Your Name"required><span id="us"></span>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Mother Name</label>
+    <input type="text" class="form-control" id="2" placeholder="Mother Name"required><span id="mn"></span>
+  </div>
+ <div class="form-group">
+    <label for="exampleInputPassword1">Father Name</label>
+    <input type="text" class="form-control" id="3" placeholder="Father Name"required><span id="fn"></span>
+  </div>
+ <div class="form-group">
+    <label for="exampleInputPassword1">Mobile Number</label>
+    <input type="text" class="form-control" id="4" placeholder="Enter Your Contact Number"required><span id="mobile"></span>
+  </div>
+ <div class="form-group">
+    <label for="exampleInputPassword1">Gender</label>
+   <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  <label class="form-check-label" for="exampleRadios1">
+   Male
+  </label>
+</div>
+     <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  <label class="form-check-label" for="exampleRadios1">
+   Female
+  </label>
+</div>
+  </div>
+             <div class="form-group">
+    <label for="exampleInputPassword1">Date Of Birth</label>
+    <input type="date" class="form-control" id="exampleInputPassword1" placeholder=""required>
+  </div>
+            <div class="form-group">
+    <label for="exampleInputPassword1">Category</label>
+   <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  <label class="form-check-label" for="exampleRadios1">
+   OBC
+  </label>
+</div>
+     <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  <label class="form-check-label" for="exampleRadios1">
+  SC
+  </label>
+</div>
+               
+   <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  <label class="form-check-label" for="exampleRadios1">
+  ST
+  </label>
+</div>
+     <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+  <label class="form-check-label" for="exampleRadios1">
+   General
+  </label>
+</div>
+  </div>
+
+             <div class="form-group">
+    <label for="exampleInputPassword1">Parmanent Address</label>
+    <input type="text" class="form-control" id="5" placeholder="Enter Your Address"required><span id="address"></span>
+  </div>
+            <div class="form-group">
+            <label>Country:</label>
+<select>
+     <option selected="no"></option>
+          <option>India</option>
+		  <option>japan</option>
+		  <option>chaina</option>
+		  <option>hong kong</option>
+		  <option>indonasia</option>
+		  <option>italy</option>
+		  <option>cannada</option>
+		  <option>America</option>
+		  <option>Singapore</option>
+		  <option>shri lanka</option>
+</select>
+                
+<label>City:</label>
+<select>
+    <option selected="no"></option>
+        <option>Mumbai</option>
+		<option>Dehli</option>
+		<option>banglore</option>
+		<option>Ahmdabad</option>
+		<option>Indore</option>
+		<option>Agra</option>
+		<option>Surat</option>
+		<option>Pune</option>
+		<option>Shri nagar</option>
+		<option>Jaipur</option>
+</select>
+                <label>State:</label>
+<select>
+    <option selected="no"></option>
+        <option>Rajasthan</option>
+		<option>Panjab</option>
+		<option>hariyana</option>
+		<option>Gujrat</option>
+		<option>Maharastra</option>
+		<option>Uttar Pradesh</option>
+		<option>Madhya Pradesh</option>
+		<option>Kerala</option>
+</select>
+            </div>
+<legend>Educational Details</legend>
+           <div class="form-group">
+    <label for="exampleInputPassword1">Qualification:</label>
+   <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">10th</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">12th</label>
+</div>
+               <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Under Graduate</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Post Graduate</label>
+</div>           
+  </div>
+            <legend>Photo & Signature</legend>
+            <div class="form-group">
+    <label for="exampleInputPassword1">Photo</label>
+    <input type="file" class="form-control" id="exampleInputPassword1" placeholder=""required>
+  </div>
+       
+            <div class="form-group">
+    <label for="exampleInputPassword1">Signature</label>
+    <input type="file" class="form-control" id="exampleInputPassword1" placeholder=""required>
+  </div>  
+            <div class="form-check form-check-inline">
+            <input type="checkbox"name="c1"class="form-check-input">  <h6>If u want to agree the terms & conditions to continue click on checkbox.Check your details carefully because once form had submitted that you can't change the deatails.</h6>
+            </div>
+</form> 
+            <button type="submit"class="btn btn-primary"id="submit"onclick = "window.location.href = 'submit.html'">Submit</button>
+        </div> 
+        </div>
+    </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

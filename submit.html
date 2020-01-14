@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Acknowledgement</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0
+        }
+        h1{
+            text-decoration: underline;
+            color: cornflowerblue;
+        }
+        button{
+            font-size: 25px;
+            text-align: center; 
+            background-color: burlywood;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: aqua;
+        }
+    </style>
+    </head>
+<body style="background-color: cornsilk">
+    <h1 style="text-align: center">Your Application Has Been Submitted.</h1>
+    <center><button type="button"value=""onclick ="confirmation()">Thank You</button></center>
+    <script>
+    function confirmation(){
+        var a = confirm("Go to homepage");
+        if(a){
+            alert("Redirect to homepage")
+            window.location = "homepage.html";
+        }
+        else{
+            alert("Soory! you click on cancel button");
+        }
+    }
+    </script>
+    </body>
+</html>

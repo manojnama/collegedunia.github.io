@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+  top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h5
+{
+color: #4287f5;
+    font-size: 45px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.navbar-brand img{
+    height: 41px;
+    padding-left: 30px;
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float:left;
+    text-align: right;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff !important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none! important;
+}
+.nav-link
+{
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
+}
+span{
+    font-size: 25px;
+    font-family: sans-serif;;
+    text-decoration: underline;
+    color:red;
+}
+p{
+    color:#007bff;
+}
+#About{
+    background-color: #efefef;
+}
+.card:hover{
+   box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: pink;
+    border: 1px solid blue;
+    }
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+   content: '\93';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -10px;
+}
+blockquote::after{
+   content: '\94';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+}
+#contact{
+    background-image:  linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 75px;
+    text-align: center;
+}
+#Activities{
+    background-color: #efefef;
+}
+#Activities img{
+border:2px solid pink;
+}
+#Activities img:hover{
+border:2px solid #007bff;
+    cursor: pointer;
+    -webkit-box-shadow: -17px 6px 96px -9px rgba(143,36,127,1);
+-moz-box-shadow: -17px 6px 96px -9px rgba(143,36,127,1);
+box-shadow: -17px 6px 96px -9px rgba(143,36,127,1);
+zoom:2;
+}
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#student .row{
+   margin-top: 50px;
+}
+.col-md-4{
+    margin: 41px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user{
+    width: 150px;
+    height: 150px;
+    border-radius: 45%;
+}
+.profile img{
+    top: -80px;
+    margin-left: -65px;
+    position: absolute;
+    left: calc(50% -60px);
+     border-color: 10px solid pink;
+   
+}
+.profile h3{
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 15px;
+}
+#student span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+   content: '\93';
+    font-size: 35px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -10px;
+}
+blockquote::after{
+   content: '\94';
+    font-size: 35px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+}
+.profile:hover{
+   box-shadow: -14px 10px 113px -20px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#boxes  h1 span{
+    color:#ff007f ;
+    font-size: 41px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.cards{
+    background-color: #efefef;
+    margin-bottom: 45px;
+}
+.cards:hover{
+    box-shadow: 1px 22px 55px 6px rgba(115,0,209,1);
+}
+#why-us span{
+    font-size: 41px;
+    color: #ff007f;
+    text-decoration: none;
+}
+#why span{
+    color: #ff007f;
+    font-size: 41px;
+    text-decoration: none;
+}
+#why .fa{
+    font-size: 75px;
+    color: #007bff;
+    margin-left: 65px;
+    margin-top: 45px;
+    text-align: center;
+}
+#why .fa:hover{
+    color: blue;
+    cursor: pointer;
+}
+#footer{
+     border-top: 2px solid #000;
+    background: #363332;
+    color: #fff;
+    font-family: sans-serif;
+}
+#footer p{
+    color: #fff;
+}
+#footer .fa-heart{
+    color: red;
+}
+#footer ul li{
+    margin-bottom: 15px;
+}
+.icon .fa{
+font-size: 41px;
+margin-left: 45px;
+}
+.icon .fa:hover{
+cursor: pointer;
+}
+
+.batman{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.batman img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+   animation-name: a;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    from{
+        left: -15%;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
